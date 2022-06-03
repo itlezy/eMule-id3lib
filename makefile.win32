@@ -23,15 +23,15 @@
 #
 
 CFLAGS=-nologo -I. -Iinclude -Iinclude\id3 -Izlib\include \
-	-W3 -WX -GX \
+	-W2 -MT -EHsc \
 	-DHAVE_CONFIG_H -DID3LIB_LINKOPTION=1
 
 !ifdef DEBUG
 SUFFIX=d
-CFLAGS=$(CFLAGS) -Od -Z7 -Oy- -MD -D "WIN32" -D "_DEBUG"
+CFLAGS=$(CFLAGS) -Od -Z7 -Oy- -D "WIN32" -D "_DEBUG"
 !else
 SUFFIX=
-CFLAGS=$(CFLAGS) -Ox     -Oy- -MD -D "WIN32" -D "NDEBUG"
+CFLAGS=$(CFLAGS) -Ox     -Oy- -D "WIN32" -D "NDEBUG"
 !endif
 
 SRCDIR=src
