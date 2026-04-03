@@ -28,18 +28,18 @@ LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 // TEXTINCLUDE
 //
 
-1 TEXTINCLUDE DISCARDABLE 
+1 TEXTINCLUDE DISCARDABLE
 BEGIN
     "resource.h\0"
 END
 
-2 TEXTINCLUDE DISCARDABLE 
+2 TEXTINCLUDE DISCARDABLE
 BEGIN
     "#include ""winres.h""\r\n"
     "\0"
 END
 
-3 TEXTINCLUDE DISCARDABLE 
+3 TEXTINCLUDE DISCARDABLE
 BEGIN
     "1 TYPELIB ""ID3COM.tlb""\r\n"
     "\0"
@@ -67,7 +67,7 @@ VS_VERSION_INFO VERSIONINFO
             VALUE "CompanyName", "http://www.id3lib.org/\0"
             VALUE "FileDescription", "ID3Com Dynamic Link Library\0"
             VALUE "FileVersion", _ID3LIB_VERSION0
-            VALUE "LegalCopyright", "Copyright © 2002 Thijmen Klok, John Adcock\0"
+            VALUE "LegalCopyright", "Copyright Â© 2002 Thijmen Klok, John Adcock\0"
             VALUE "OriginalFilename", "ID3Com.dll\0"
             VALUE "ProductName", "ID3Com\0"
             VALUE "ProductVersion", _ID3LIB_VERSION0
@@ -96,12 +96,12 @@ IDR_ID3FIELD            REGISTRY DISCARDABLE    "ID3Field.rgs"
 // String Table
 //
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE DISCARDABLE
 BEGIN
     IDS_PROJNAME            "ID3libCOM"
 END
 
-STRINGTABLE DISCARDABLE 
+STRINGTABLE DISCARDABLE
 BEGIN
     IDS_UNEXPECTED_ERROR    "An unexpected error has occurred"
     IDS_ERROR_BAD_FILENAME  "You must specify a file and not a directory"
@@ -122,4 +122,3 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 #endif    // not APSTUDIO_INVOKED
-

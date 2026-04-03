@@ -44,7 +44,7 @@ ID3_V2Spec ID3_VerRevToV2Spec(uchar ver, uchar rev)
     {
       spec = ID3V2_2_1;
     }
-  } 
+  }
   else if (3 == ver)
   {
     if (0 == rev)
@@ -107,4 +107,3 @@ uchar ID3_V2SpecToRev(ID3_V2Spec spec)
   }
   return rev;*/
 }
-

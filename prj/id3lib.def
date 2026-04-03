@@ -1,7 +1,7 @@
 LIBRARY "id3lib"
 DESCRIPTION  'id3lib for windows'
 
-EXPORTS 
+EXPORTS
 
   ID3Tag_New                  @1
   ID3Tag_Delete               @2
@@ -62,4 +62,3 @@ EXPORTS
   ID3Field_GetBINARY          @53
   ID3Field_FromFile           @54
   ID3Field_ToFile             @55
-

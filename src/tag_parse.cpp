@@ -584,4 +584,3 @@ void ID3_TagImpl::ParseReader(ID3_Reader &reader)
   else
     this->SetPadding(false); //no need to pad an empty file
 }
-

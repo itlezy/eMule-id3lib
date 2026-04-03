@@ -90,4 +90,3 @@ namespace dami
 };
 
 #endif /* _ID3LIB_IO_HELPERS_H_ */
-

@@ -158,4 +158,3 @@ ID3_Err ID3_FrameImpl::Render(ID3_Writer& writer) const
   _changed = false;
   return ID3E_NoError;
 }
-

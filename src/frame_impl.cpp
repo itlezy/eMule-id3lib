@@ -264,4 +264,3 @@ const char* ID3_FrameImpl::GetDescription() const
   }
   return NULL;
 }
-

@@ -94,4 +94,3 @@ typedef short            int32;
 #endif /* UINT_MAX == 0xfffffffful */
 
 #endif /* _SIZED_TYPES_H_ */
-

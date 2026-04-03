@@ -65,7 +65,7 @@
 #    pragma message("***")
 #    error read message above or win32.readme.first.txt
 #  else
-#    if (ID3LIB_LINKOPTION == LINKOPTION_CREATE_DYNAMIC) 
+#    if (ID3LIB_LINKOPTION == LINKOPTION_CREATE_DYNAMIC)
        //used for creating a dynamic dll
 #      if defined(__BORLANDC__)
 #        define ID3_C_EXPORT extern __declspec(dllexport)
@@ -75,20 +75,20 @@
 #      define ID3_CPP_EXPORT __declspec(dllexport)
 #      define CCONV __stdcall // Added for VB & Delphi Compatibility - By FrogPrince Advised By Lothar
 #    endif
-#    if (ID3LIB_LINKOPTION == LINKOPTION_STATIC) 
+#    if (ID3LIB_LINKOPTION == LINKOPTION_STATIC)
        //used for creating a static lib and using a static lib
 #      define ID3_C_EXPORT
 #      define ID3_CPP_EXPORT
 #      define CCONV
 #    endif
-#    if (ID3LIB_LINKOPTION == LINKOPTION_USE_DYNAMIC) 
+#    if (ID3LIB_LINKOPTION == LINKOPTION_USE_DYNAMIC)
        //used for those that do not link static and are using the dynamic dll by including a id3lib header
 #      if defined(__BORLANDC__)
 #        define ID3_C_EXPORT extern __declspec(dllimport)
 #      else
 #        define ID3_C_EXPORT extern _declspec(dllimport)
 #      endif
-#      define ID3_CPP_EXPORT __declspec(dllimport) //functions like these shouldn't be used by vb and Delphi, 
+#      define ID3_CPP_EXPORT __declspec(dllimport) //functions like these shouldn't be used by vb and Delphi,
 #      define CCONV __stdcall // Added for VB & Delphi Compatibility - By FrogPrince Advised By Lothar
 #    endif
 #  endif
@@ -391,12 +391,12 @@ ID3_ENUM(ID3_FieldFlags)
   ID3FF_NONE          =      0,
   ID3FF_CSTR          = 1 << 0,  /*null (according to encoding) terminated*/
   ID3FF_LIST          = 1 << 1,  /*null (according to encoding) separates listitems*/
-  ID3FF_ENCODABLE     = 1 << 2,  /*possible to encode in valid encodings, 
+  ID3FF_ENCODABLE     = 1 << 2,  /*possible to encode in valid encodings,
                                   *if not set then string is encoded by ID3TE_ISO8859_1 */
-  ID3FF_HASLINKEDSIZE = 1 << 3   /*used together with _linked_field. 
+  ID3FF_HASLINKEDSIZE = 1 << 3   /*used together with _linked_field.
                                   *if _linked_field is NOT set, than this field contains
                                   *a size for other fields to use, if _linked_field is set,
-                                  *than it's size comes from the last field which had this 
+                                  *than it's size comes from the last field which had this
                                   *flag but didn't have _linked_field set*/
 // the following was utter nonsense. A list doesn't have a ID3FF_CSTR, use "ID3FF_LIST | ID3FF_ENCODABLE" instead
 //  ID3FF_TEXTLIST   = ID3FF_CSTR | ID3FF_LIST | ID3FF_ENCODABLE
@@ -806,4 +806,3 @@ ID3_STRUCT(Mp3_Headerinfo)
 #endif
 
 #endif /* _ID3LIB_GLOBALS_H_ */
-

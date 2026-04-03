@@ -252,4 +252,3 @@ namespace dami
 };
 
 #endif /* _ID3LIB_IO_STRINGS_H_ */
-

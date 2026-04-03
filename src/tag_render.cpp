@@ -223,4 +223,3 @@ size_t ID3_TagImpl::PaddingSize(size_t curSize) const
 
   return newSize - curSize;
 }
-

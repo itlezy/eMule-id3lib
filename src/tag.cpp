@@ -1148,4 +1148,3 @@ ID3_Tag::CreateIterator() const
 {
   return new ConstIteratorImpl(*_impl);
 }
-

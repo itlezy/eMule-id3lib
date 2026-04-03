@@ -145,4 +145,3 @@ ID3_C_EXPORT size_t ID3_RemovePictureType(ID3_Tag*, ID3_PictureType pictype);
 ID3_C_EXPORT ID3_Frame* ID3_AddGenre(ID3_Tag* tag, size_t genreNum, char* genre, bool add_v1_genre_number = true, bool add_v1_genre_description = true, bool addRXorCR = false, bool replace = true);
 
 #endif /* _ID3LIB_MISC_SUPPORT_H_ */
-

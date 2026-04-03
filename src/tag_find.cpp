@@ -237,4 +237,3 @@ ID3_Frame *ID3_TagImpl::Find(ID3_FrameID id, ID3_FieldID fldID, uint32 data) con
 
   return frame;
 }
-

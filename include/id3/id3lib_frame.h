@@ -113,4 +113,3 @@ public:
 };
 
 #endif /* _ID3LIB_FRAME_H_ */
-

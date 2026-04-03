@@ -1,4 +1,4 @@
-// -*- C++ -*- 
+// -*- C++ -*-
 // $Id: version.rc,v 1.2 2002/08/08 14:43:00 t1mpy Exp $
 
 // id3lib: a C++ library for creating and manipulating id3v1/v2 tags
@@ -52,7 +52,7 @@ VS_VERSION_INFO VERSIONINFO
             VALUE "CompanyName", "http://www.id3lib.org/\0"
             VALUE "FileDescription", "ID3lib Dynamic Link Library\0"
             VALUE "FileVersion", _ID3LIB_VERSION0
-            VALUE "LegalCopyright", "Copyright © 2002 Thijmen Klok\0"
+            VALUE "LegalCopyright", "Copyright Â© 2002 Thijmen Klok\0"
             VALUE "OriginalFilename", "ID3lib.dll\0"
             VALUE "ProductName", "ID3lib Dynamic Link Library\0"
             VALUE "ProductVersion", _ID3LIB_VERSION0

@@ -8,4 +8,3 @@ int main()
         retval = nl_langinfo(CODESET);
         printf("%s\n", retval);
 }
-

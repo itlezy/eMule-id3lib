@@ -131,4 +131,3 @@ public:
 };
 
 #endif /* _ID3LIB_FIELD_H_ */
-

@@ -1928,4 +1928,3 @@ flags_t ID3_FrameInfo::FieldFlags(ID3_FrameID frameid, int fieldnum)
 
   return ID3FF_NONE;
 }
-

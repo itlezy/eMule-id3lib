@@ -51,4 +51,3 @@ using std::ios;
 using std::streamoff;
 
 #endif // STREAMS_H_DEFINE
-

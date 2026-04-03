@@ -66,4 +66,3 @@
 /* Version number of package */
 #define VERSION "1.1.3"
 /* This is the bottom section */
-

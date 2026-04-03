@@ -514,4 +514,3 @@ flags_t ID3_TagImpl::Strip(flags_t ulTagFlag)
 
   return ulTags;
 }
-

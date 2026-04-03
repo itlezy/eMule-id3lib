@@ -53,7 +53,7 @@ int main( int argc, char *argv[])
   tag.AddFrame(frame);
 
   frame.SetID(ID3FID_COMPOSER);
-  frame.GetField(ID3FN_TEXT)->Set("Camille Saint-Saëns");
+  frame.GetField(ID3FN_TEXT)->Set("Camille Saint-SaÃ«ns");
   tag.AddFrame(frame);
 
   frame.SetID(ID3FID_BAND);
@@ -61,7 +61,7 @@ int main( int argc, char *argv[])
   tag.AddFrame(frame);
 
   frame.SetID(ID3FID_CONDUCTOR);
-  frame.GetField(ID3FN_TEXT)->Set("Ondrej Lenárd");
+  frame.GetField(ID3FN_TEXT)->Set("Ondrej LenÃ¡rd");
   tag.AddFrame(frame);
 
   frame.SetID(ID3FID_COPYRIGHT);
@@ -82,7 +82,7 @@ int main( int argc, char *argv[])
   frame.SetID(ID3FID_PICTURE);
   frame.GetField(ID3FN_MIMETYPE)->Set("image/jpeg");
   frame.GetField(ID3FN_PICTURETYPE)->Set(11);
-  frame.GetField(ID3FN_DESCRIPTION)->Set("B/W picture of Saint-Saëns");
+  frame.GetField(ID3FN_DESCRIPTION)->Set("B/W picture of Saint-SaÃ«ns");
   frame.GetField(ID3FN_DATA)->FromFile("composer.jpg");
   tag.AddFrame(frame);
 
@@ -92,4 +92,3 @@ int main( int argc, char *argv[])
 
   return 0;
 }
-

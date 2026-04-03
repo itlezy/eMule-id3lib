@@ -365,4 +365,3 @@ bool lyr3::v2::parse(ID3_TagImpl& tag, ID3_Reader& reader)
   et.setExitPos(beg);
   return true;
 }
-

@@ -169,4 +169,3 @@ class ID3_CPP_EXPORT ID3_MemoryReader : public ID3_Reader
 };
 
 #endif /* _ID3LIB_READERS_H_ */
-

@@ -372,4 +372,3 @@ size_t io::writeUnicodeText(ID3_Writer& writer, const String& data, bool bom)
   }
   return writer.getCur() - beg;
 }
-

@@ -1459,4 +1459,3 @@ ID3_Frame *ID3_GetSyncLyrics(const ID3_Tag* tag, const char* lang,
   // return the frame pointer for further uses
   return frmExist;
 }
-

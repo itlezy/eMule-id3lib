@@ -216,4 +216,3 @@ bool ID3_FrameImpl::Parse(ID3_Reader& reader)
   _changed = false;
   return true;
 }
-

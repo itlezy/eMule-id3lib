@@ -84,4 +84,3 @@ private:
 }; //Info
 
 #endif /* _MP3_HEADER_H_ */
-

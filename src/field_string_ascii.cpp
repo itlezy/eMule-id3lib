@@ -406,4 +406,3 @@ size_t ID3_FieldImpl::GetNumTextItems() const
 {
   return _num_items;
 }
-

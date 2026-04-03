@@ -38,4 +38,3 @@ ID3_MemoryReader::readChars(char_type buf[], size_type len)
   _cur += size;
   return size;
 }
-

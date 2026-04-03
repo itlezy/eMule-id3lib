@@ -232,4 +232,3 @@ void ID3_TagHeader::ParseExtended(ID3_Reader& reader)
     _info->extended_bytes = 0;
   }//else there is a tag with a higher or lower version than supported
 }
-

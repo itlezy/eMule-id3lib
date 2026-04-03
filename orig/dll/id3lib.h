@@ -163,5 +163,3 @@ void			ID3Field_ToFile					( ID3_Field *field, char *fileName );
 
 
 #endif
-
-

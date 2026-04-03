@@ -112,4 +112,3 @@ namespace dami
 };
 
 #endif /* _ID3LIB_UTILS_H_ */
-

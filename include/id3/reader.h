@@ -137,4 +137,3 @@ class ID3_CPP_EXPORT ID3_Reader
 };
 
 #endif /* _ID3LIB_READER_H_ */
-
