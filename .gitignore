@@ -259,3 +259,10 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+# Removed historical vendored binary/resource payloads; builds must regenerate
+# or consume artifacts from EMULEBB_WORKSPACE_OUTPUT_ROOT.
+/delphi/id3com.res
+/orig/dll/id3lib.dll
+/orig/dll/id3lib.exp
+/orig/dll/id3lib.lib
